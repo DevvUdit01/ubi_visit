@@ -16,7 +16,7 @@ class DataPage extends StatelessWidget {
           fontSize: 20,
         ),
         columns: [
-            DataColumn(label: Text('roll no'),),
+            DataColumn(label: Text('roll name'),),
             DataColumn(label: Text('name'),),
             DataColumn(label: Text('course'),),
         ],
