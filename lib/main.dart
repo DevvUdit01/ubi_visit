@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:ubi_visit/pages/BottomNavigationBar.dart';
 import 'package:ubi_visit/pages/DataPage.dart';
 import 'package:ubi_visit/pages/tabControl.dart';
@@ -18,11 +19,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo new',
       theme: ThemeData(
-       
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        textTheme: GoogleFonts.latoTextTheme(
+          Theme.of(context).textTheme,
+        ),
+      colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: DataPage(),
+      home:DataPage(),
       debugShowCheckedModeBanner: false,
     );
   }

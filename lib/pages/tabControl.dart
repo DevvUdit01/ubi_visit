@@ -1,8 +1,7 @@
-import 'dart:ffi';
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:flutter_feather_icons/flutter_feather_icons.dart';
 import 'package:ubi_visit/pages/SettingsPage.dart';
 import 'package:ubi_visit/pages/homepage.dart';
 import 'package:ubi_visit/pages/profile_page.dart';
@@ -22,6 +21,9 @@ class _TabControlState extends State<TabControl> {
       animationDuration: Durations.short1,
       child: Scaffold(
         appBar: AppBar(
+          actions: [
+            Icon(FeatherIcons.activity)
+          ],
           bottom: TabBar(
             indicator: BoxDecoration(
               color: Colors.grey.shade200
