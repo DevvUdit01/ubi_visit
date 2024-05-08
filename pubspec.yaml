@@ -39,6 +39,8 @@ dependencies:
   material_symbols_icons: ^4.2719.3
   flutter_svg: ^2.0.10+1
   shared_preferences: ^2.2.3
+  flutter_feather_icons: ^2.0.0+1
+  google_fonts: ^6.2.1
 
 dev_dependencies:
   flutter_test:

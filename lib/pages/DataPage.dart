@@ -6,7 +6,7 @@ class DataPage extends StatelessWidget {
   @override
   
   Widget build(BuildContext context) {
-    
+  
     return Scaffold(
       body: Center(
         child: DataTable(
@@ -40,7 +40,7 @@ class DataPage extends StatelessWidget {
                 DataCell(Text('Btech')),
             ]),
         ],
-        ),
+        ),  
       ),
     );
   }
